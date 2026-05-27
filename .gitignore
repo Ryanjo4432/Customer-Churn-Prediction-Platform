@@ -17,8 +17,6 @@ app/model/*.pkl
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Docker
-.dockerignore
 
 # Logs
 *.log

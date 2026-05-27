@@ -1,0 +1,33 @@
+# no need to ship these into the container
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+env/
+
+# data stays outside the container
+data/raw/
+data/processed/
+
+# don't copy notebooks
+notebooks/
+
+# git stuff
+.git/
+.gitignore
+
+# logs generated at runtime not build time
+logs/
+*.log
+
+# test files not needed in prod
+tests/
+
+# local docker files
+docker-compose.override.yml
+
+# os junk
+.DS_Store
+Thumbs.db
